@@ -13,7 +13,7 @@ import type { Article } from 'francisparker-api/news'
 
 // fetch article
 async function main() {
-    const article: Article = fetchLatest()
+    const article: Article = await fetchLatest()
 }
 
 main() 
@@ -30,7 +30,7 @@ import type { Article } from 'francisparker-api/news'
 // fetch article
 async function main() {
     const pageNumber: number = 0 // page numbers are integers [0, last page], where 0 is the first page (page with the latest news)
-    const articles: Article[] = fetchPage(pageNumber)
+    const articles: Article[] = await fetchPage(pageNumber)
 }
 
 main() 
