@@ -1,11 +1,13 @@
 {
   "name": "francisparker-api",
   "description": "Francis Parker Public api. To work with data at https://francisparkerlouisville.org or other fp services",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^18.7.18",
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12",
+    "moment": "^2.29.4",
     "typescript": "^4.8.3"
   },
   "author": "RIGIK93",

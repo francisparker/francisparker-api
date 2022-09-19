@@ -48,10 +48,10 @@ import { fetchArticle } from 'francisparker-api/news'
 // Import Interface for typing (optional)
 import type { Article } from 'francisparker-api/news'
 
-// fetch articles
+// fetch article
 async function main() {
     const articleNumber: number = 0 // article numbers are integers [0, last article], where 0 is the latest article and last article is the oldest one
-    const articles: Article[] = await fetchPage(pageNumber)
+    const article: Article = await fetchArticle(articleNumber)
 }
 
 main()
